@@ -14,7 +14,6 @@ params:
     short_png:       png正则表达式
     NameList = []:   存放可爬取的url的列表
     WrongNameList = []：存放产生异常的url的列表
-    
 '''
 import Queue
 import urllib2
