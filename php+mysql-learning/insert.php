@@ -13,7 +13,6 @@
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 	}
 
-	
 	$sql = "INSERT INTO student(name,password) VALUES ('$name','$pwd')" ; 
 
 	mysqli_query($con,$sql);
