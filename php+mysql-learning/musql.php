@@ -3,4 +3,4 @@
 		$myuser="root";
 		$mypw="root";
 		$mydb="student";
-  ?>
+?>
